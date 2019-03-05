@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="mdd" value="dd($END$, __FILE__ . ' - ' . __LINE__);" description="dd with position info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="'" value="'$END$'" description="single quote" toReformat="false" toShortenFQNames="true" />
+</templateSet>
