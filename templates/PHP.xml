@@ -5,4 +5,14 @@
     </context>
   </template>
   <template name="'" value="'$END$'" description="single quote" toReformat="false" toShortenFQNames="true" />
+  <template name="md" value="die('$END$' . ' - ' . __FILE__ . ' - ' . __LINE__);" description="die with position info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="var_dump($END$);&#10;die(__FILE__ . ' - ' . __LINE__);" description="var dump and die with position info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
