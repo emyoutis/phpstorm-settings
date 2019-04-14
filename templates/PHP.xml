@@ -5,7 +5,7 @@
     </context>
   </template>
   <template name="'" value="'$END$'" description="single quote" toReformat="false" toShortenFQNames="true" />
-  <template name="dad" value="dump($END$, __FILE__ . ' - ' . __LINE__);&#10;die();" description="dump and die with position info" toReformat="false" toShortenFQNames="true">
+  <template name="dad" value="dump($END$, __FILE__ . ' - ' . __LINE__);&#10;die(__FILE__ . ' - ' . __LINE__);" description="dump and die with position info" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
