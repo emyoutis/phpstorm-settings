@@ -1,4 +1,4 @@
-<keymap version="1" name="EmiTis">
+<keymap version="1" name="EmiTis" parent="$default">
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="shift alt back_space" />
