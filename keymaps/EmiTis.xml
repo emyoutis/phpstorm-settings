@@ -1,4 +1,4 @@
-<keymap version="1" name="NetBeans copy" parent="NetBeans 6.5">
+<keymap version="1" name="EmiTis" parent="NetBeans 6.5">
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="ReopenClosedTab">
