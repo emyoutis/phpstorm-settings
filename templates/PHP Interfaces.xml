@@ -1,11 +1,11 @@
 <templateSet group="PHP Interfaces">
-  <template name="pubf" value="public function $NAME$($PARAMETERS$)$RETURN$;" description="public function" toReformat="true" toShortenFQNames="true">
+  <template name="pubf" value="public function $NAME$($PARAMETERS$) $RETURN$;" description="public function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="pubsf" value="public static function $NAME$($PARAMETERS$)$RETURN$;" description="public static function" toReformat="true" toShortenFQNames="true">
+  <template name="pubsf" value="public static function $NAME$($PARAMETERS$) $RETURN$;" description="public static function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
