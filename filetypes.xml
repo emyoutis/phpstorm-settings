@@ -5,8 +5,8 @@
       <mapping pattern="order" type="PLAIN_TEXT" />
       <mapping pattern="post-merge" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
-      <mapping pattern="pre-merge" type="PLAIN_TEXT" />
       <mapping pattern="Setting" type="PLAIN_TEXT" />
+      <mapping pattern="pre-merge" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".env.production.local" type="PLAIN_TEXT" />
